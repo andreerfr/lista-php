@@ -9,10 +9,24 @@
 <form method="POST" action="">
         <label for="numero">Digite um número:</label>
         <input type="number" id="numero" name="numero" required>
-        <button type="submit" name="verificar_par_impar">Calcular</button>
+        <button type="submit" name="tabuada">Calcular</button>
 </form>
 
+<?php
 
+    if ($_SERVER['REQUEST_METHOD']=== 'POST') {
+        if(isset($_POST['tabuada'])) {
+            $numero = $_POST['numero'];
+            for ($i = 1; $i <= 10; $i++) {
+                $resultado = $i * $numero;
+                echo $numero;
+
+            }
+
+                }
+
+ }
+?>
 
 </body>
 </html>
