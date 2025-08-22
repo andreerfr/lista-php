@@ -19,7 +19,7 @@
             $numero = $_POST['numero'];
             for ($i = 1; $i <= 10; $i++) {
                 $resultado = $i * $numero;
-                echo $numero;
+                  echo "$numero x $i = $resultado<br>";
 
             }
 
