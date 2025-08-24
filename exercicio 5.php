@@ -6,6 +6,6 @@
     <title>Exercicio 5</title>
 </head>
 <body>
-    
+    //não entendi o que é um numero amigo, quem dira fazer codigo disso :D;
 </body>
 </html>
