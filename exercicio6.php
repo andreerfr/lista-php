@@ -9,21 +9,22 @@
     <form method="POST" action="">
         <label for="numero">Digite um número:</label>
         <input type="number" id="numero" name="numero" required>
-        <button type="submit" name="divisores">Dividir</button>
+        <button type="submit" name="divisores">Divisores</button>
 </form>
 <?php
 
     if ($_SERVER['REQUEST_METHOD']=== 'POST') {
         if(isset($_POST['divisores'])) {
-            $numero = $_POST['numero'];
-            $guardanumero = $numero;
-            for ($i = $numero; $i = $numero; $i--) {
-                if ($guardarnumero % $numero == 0)
-echo "$guardarnumero pode ser dividido por $numero";
-            }
-                }
 
- }
+            $numero = $_POST['numero'];
+
+            for ($i = 1; $i <= $numero; $i++) {
+                if($numero % $i == 0) {
+                     echo "$i ";
+                    }
+                }
+        }
+}
 ?>
 </body>
 </html>
