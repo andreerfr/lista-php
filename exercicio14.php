@@ -15,10 +15,10 @@
         <?php
             if ($_SERVER['REQUEST_METHOD']=== 'POST') {
                 if(isset($_POST['verificar_par_impar'])) {
-                    $numero = $_POST['numero']; //reciclagem do outro codigo :D
+                    $numero = $_POST['numero'];
 
-                    if($numero % 4 == 0) {
-                        echo "$numero é bissexto";
+                    if($numero % 4 == 0) { 
+                        echo "$numero é bissexto"; //reciclagem de outro codigo :D
                     }
                     else {
                         echo "$numero is not bissexto";
