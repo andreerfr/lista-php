@@ -16,12 +16,9 @@
     if ($_SERVER['REQUEST_METHOD']=== 'POST') {
         if(isset($_POST['tabuada'])) {
             $numero = $_POST['numero'];
-            $contar = 0;
             for ($i = 1; $i < $numero; $i++) {
                if($i % 2 == 0) {
-                        echo "$i";
-                        echo "<br>";
-                        $contar = $contar + 1;
+                        
                     }
             }
 
@@ -29,7 +26,6 @@
 
  }
 
- echo "São $contar numeros pares";
 ?>
 </body>
 </html>
