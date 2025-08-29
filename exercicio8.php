@@ -18,10 +18,7 @@
             $numero = $_POST['numero'];
             for ($i = 1; $i <= $numero; $i++) {
                if($numero % 2 == 0) {
-                        echo "O número $numero é  <strong>par</strong>.";
-                    }
-                    else {
-                        echo "O número $numero é <strong>impar</strong>";
+                        echo "$numero";
                     }
             }
 
