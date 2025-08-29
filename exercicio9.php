@@ -10,21 +10,36 @@
         <label for="numero">Digite um número:</label>
         <input type="number" id="numero" name="numero" required>
         <button type="submit" name="tabuada">Calcular</button>
+
+         <label for="numero">Digite um número:</label>
+        <input type="number" id="numero2" name="numero2" required>
+        <button type="submit" name="tabuada2">Calcular</button>
 </form>
 <?php
+
+$soma = 0;
 
     if ($_SERVER['REQUEST_METHOD']=== 'POST') {
         if(isset($_POST['tabuada'])) {
             $numero = $_POST['numero'];
-            for ($i = 1; $i < $numero; $i++) {
-               if($i % 2 == 0) {
-                        
-                    }
-            }
 
+if ($_SERVER['REQUEST_METHOD']=== 'POST') {
+        if(isset($_POST['tabuada2'])) {
+            $numero = $_POST['numero2'];
+
+            if ($numero < $numero2){ 
+            for ($i = $numero; $i < $numero2; $i++) {
+             $soma = $soma + $i;
                 }
-
+            }else {
+for ($i = $numero2; $i < $numero1; $i++) {
+             $soma = $soma + $i;
+                }
+            }
  }
+}
+        }
+    }
 
 ?>
 </body>
