@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 11 - Palíndromos (ainda não entendi 100% o que é palindromo) </title>
+    //nota: agora eu entendi
 </head>
 <body>
     <form method="POST" action="">
